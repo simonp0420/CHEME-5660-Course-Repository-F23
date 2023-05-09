@@ -21,7 +21,7 @@ LB = zeros(L) .- 1.96/sqrt(L);
 UB = zeros(L) .+ 1.96/sqrt(L);
 
 # plot -
-plot!(AC,xlim=(0,100), lw=2, c=colors[2], label="abs(r) $(ticker)", 
+plot!(AC,xlim=(0,100), lw=3, c=colors[2], label="abs(r) $(ticker)", 
     bg="floralwhite", background_color_outside="white", framestyle = :box, 
     fg_legend = :transparent);
 plot!(LB,c=colors[5], lw=1, label="Lower bound 95% CI")
