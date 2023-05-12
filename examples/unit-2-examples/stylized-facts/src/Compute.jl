@@ -6,7 +6,7 @@ the dataset which is type DataFrame.
 
 See: https://dataframes.juliadata.org/stable/man/getting_started/
 """
-function logR(data::DataFrame; r::Float64 = 0.045)::Array{Float64,1}
+function logR(data::DataFrame; r::Float64 = 0.045, key::Symbol=:close)::Array{Float64,1}
 
     # initialize -
     number_of_trading_days = nrow(data);
@@ -19,8 +19,8 @@ function logR(data::DataFrame; r::Float64 = 0.045)::Array{Float64,1}
     for i ∈ 2:number_of_trading_days
         
         # grab yesterday's close price
-        P₁ = data[i-1, :close]; # yesterday
-        P₂ = data[i, :close];   # today
+        P₁ = data[i-1, key]; # yesterday
+        P₂ = data[i, key];   # today
 
         # compute the excess return -
         log_excess_return_array[i-1] = log(P₂/P₁) - r̄
