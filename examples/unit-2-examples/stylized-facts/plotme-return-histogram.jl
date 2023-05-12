@@ -20,3 +20,6 @@ plot!(ld, lw=3, c=colors[5],label="Laplace")
 plot!(nd, lw=3, c=colors[2], label="Normal")
 xlabel!("Daily Return $(ticker)", fontsize=18)
 ylabel!("Count", fontsize=18)
+
+# save figure -
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-histogram.pdf"))

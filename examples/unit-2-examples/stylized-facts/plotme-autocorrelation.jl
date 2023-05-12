@@ -28,3 +28,6 @@ plot!(LB,c=colors[5], lw=1, label="Lower bound 95% CI")
 plot!(UB,c=colors[5], lw=1, label="Upper bound 95% CI")
 xlabel!("Lag", fontsize=18)
 ylabel!("Autocorrelation", fontsize=18)
+
+# save figure -
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-Autocorrelation.pdf"))
