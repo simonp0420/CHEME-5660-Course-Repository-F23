@@ -24,6 +24,10 @@ function _build_nodes_level_dictionary(levels::Int64)::Dict{Int64,Array{Int64,1}
 end
 
 
+# define expectation -
+_𝔼(X::Array{Float64,1}, p::Array{Float64,1}) = sum(X.*p)
+
+
 function solve(model::MySymmetricBinaryLatticeModel; Vₚ::Float64 = 100.0)
 
     # initialize -
@@ -153,4 +157,72 @@ function populate(model::MySymmetricBinaryLatticeModel)
 
     # return -
     return model;
+end
+
+"""
+    𝔼(model::MySymmetricBinaryLatticeModel; level::Int = 0) -> Float64
+"""
+function 𝔼(model::MySymmetricBinaryLatticeModel; level::Int = 0)::Float64
+
+    # initialize -
+    expected_value = 0.0;
+    X = Array{Float64,1}();
+    p = Array{Float64,1}();
+
+    # get the levels dictionary -
+    levels = model.levels;
+    nodes_on_this_level = levels[level]
+    for i ∈ nodes_on_this_level
+
+        # grab the node -
+        node = model.data[i];
+        
+        # get the data -
+        x_value = node.rate;
+        p_value = node.probability;
+
+        # store the data -
+        push!(X,x_value);
+        push!(p,p_value);
+    end
+
+    # compute -
+    expected_value = _𝔼(X,p) # inner product
+
+    # return -
+    return expected_value
+end
+
+"""
+    𝕍(data:::MyAdjacencyBasedCRREquityPriceTree; level::Int = 0) -> Float64
+"""
+function 𝕍(model::MySymmetricBinaryLatticeModel; level::Int = 0)::Float64
+
+    # initialize -
+    variance_value = 0.0;
+    X = Array{Float64,1}();
+    p = Array{Float64,1}();
+
+    # get the levels dictionary -
+    levels = model.levels;
+    nodes_on_this_level = levels[level]
+    for i ∈ nodes_on_this_level
+ 
+        # grab the node -
+        node = model.data[i];
+         
+        # get the data -
+        x_value = node.rate;
+        p_value = node.probability;
+ 
+        # store the data -
+        push!(X,x_value);
+        push!(p,p_value);
+    end
+
+    # update -
+    variance_value = (_𝔼(X.^2,p) - (_𝔼(X,p))^2)
+
+    # return -
+    return variance_value;
 end

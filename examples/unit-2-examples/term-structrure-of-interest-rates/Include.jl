@@ -4,6 +4,7 @@ const _PATH_TO_SRC = joinpath(_ROOT, "src")
 
 # load packages -
 import Pkg; Pkg.activate("."); Pkg.instantiate();
+using StatsBase
 
 # load my codes -
 include(joinpath(_PATH_TO_SRC, "Types.jl"))
