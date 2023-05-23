@@ -24,7 +24,7 @@ function _build_nodes_level_dictionary(levels::Int64)::Dict{Int64,Array{Int64,1}
 end
 
 
-function solve(model::MySymmetricBinaryLatticeModel, Vₚ::Float64 = 100.0)
+function solve(model::MySymmetricBinaryLatticeModel; Vₚ::Float64 = 100.0)
 
     # initialize -
     # ...
@@ -65,6 +65,9 @@ function solve(model::MySymmetricBinaryLatticeModel, Vₚ::Float64 = 100.0)
             nodes[i].price = node_price;
         end
     end
+
+    # return -
+    return model;
 end
 
 function populate(model::MySymmetricBinaryLatticeModel)
