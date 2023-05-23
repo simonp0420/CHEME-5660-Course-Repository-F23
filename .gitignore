@@ -22,3 +22,8 @@ docs/site/
 # committed for packages, but should be committed for applications that require a static
 # environment.
 Manifest.toml
+examples/unit-2-examples/.DS_Store
+labs/unit-3-labs/Lab-12b/.DS_Store
+examples/.DS_Store
+examples/unit-1-examples/.DS_Store
+examples/unit-1-examples/simple-compound-interest/.DS_Store
