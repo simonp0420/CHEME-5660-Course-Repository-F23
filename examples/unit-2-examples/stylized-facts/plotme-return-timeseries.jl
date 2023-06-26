@@ -16,7 +16,7 @@ plot!(R, lw=3, c=colors[2], label="$(ticker)",
     bg="floralwhite", background_color_outside="white", framestyle = :box, 
     fg_legend = :transparent);
 xlabel!("Time (day)", fontsize=18)
-ylabel!("Logorithmic Return", fontsize=18)
+ylabel!("logarithmic Return", fontsize=18)
 
 # save figure -
-savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-2yr.pdf"))
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr.pdf"))
