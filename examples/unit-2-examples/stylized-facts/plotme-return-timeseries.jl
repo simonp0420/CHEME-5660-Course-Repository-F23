@@ -19,4 +19,4 @@ xlabel!("Time (day)", fontsize=18)
 ylabel!("logarithmic Return", fontsize=18)
 
 # save figure -
-savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr.pdf"))
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr.svg"))
