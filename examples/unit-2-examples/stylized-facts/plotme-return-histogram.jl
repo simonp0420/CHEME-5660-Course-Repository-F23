@@ -22,4 +22,4 @@ xlabel!("Daily Return $(ticker)", fontsize=18)
 ylabel!("Count", fontsize=18)
 
 # save figure -
-savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-histogram.pdf"))
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-histogram.svg"))

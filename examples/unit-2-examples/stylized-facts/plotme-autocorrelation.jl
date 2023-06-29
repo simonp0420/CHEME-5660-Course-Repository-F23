@@ -30,4 +30,4 @@ xlabel!("Lag", fontsize=18)
 ylabel!("Autocorrelation", fontsize=18)
 
 # save figure -
-savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-Autocorrelation.pdf"))
+savefig(joinpath(_PATH_TO_FIGS, "Fig-$(ticker)-Daily-Return-4yr-Autocorrelation.svg"))
