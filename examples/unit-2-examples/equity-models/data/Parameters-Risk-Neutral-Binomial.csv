@@ -1,0 +1,484 @@
+id,ticker,name,sector,probability,up,down
+56,AZO,AutoZone,Consumer Discretionary,0.5031369938010385,1.011,0.9894
+35,AWK,American Water Works,Utilities,0.5312443307349582,1.009,0.9899
+425,SYF,Synchrony Financial,Financials,0.5248910429187938,1.016,0.9824
+429,TROW,T. Rowe Price,Financials,0.5161841952127921,1.013,0.9865
+60,BLL,Ball Corp,Materials,0.5199812116328015,1.011,0.9887
+308,MDT,Medtronic,Health Care,0.5238284045567877,1.01,0.9896
+67,BIO,Bio-Rad Laboratories,Health Care,0.517788996555951,1.013,0.9862
+215,GIS,General Mills,Consumer Staples,0.5258746613948642,1.009,0.9903
+319,TAP,Molson Coors Beverage Company,Consumer Staples,0.5314713385874221,1.013,0.9861
+73,BKNG,Booking Holdings,Consumer Discretionary,0.5121161703137025,1.014,0.9852
+251,IFF,International Flavors & Fragrances,Materials,0.5077830564287781,1.012,0.9878
+115,CTXS,Citrix Systems,Information Technology,0.5278307205821898,1.009,0.9901
+112,CSCO,Cisco Systems,Information Technology,0.5126814557685875,1.011,0.9892
+185,EXPE,Expedia Group,Consumer Discretionary,0.5189171053530637,1.017,0.9817
+348,ORLY,O'Reilly Automotive,Consumer Discretionary,0.5127183638871069,1.01,0.9893
+420,SBUX,Starbucks,Consumer Discretionary,0.5090178289411084,1.011,0.9886
+404,RCL,Royal Caribbean Group,Consumer Discretionary,0.49369709437715686,1.024,0.9772
+365,PEP,PepsiCo,Consumer Staples,0.5245420391681584,1.007,0.9923
+417,SO,Southern Company,Utilities,0.5262557046680109,1.009,0.9907
+333,NWS,News Corp (Class B),Communication Services,0.5109687543802571,1.013,0.9867
+86,COF,Capital One Financial,Financials,0.5158319268803487,1.016,0.9831
+168,EW,Edwards Lifesciences,Health Care,0.5154526654068002,1.013,0.9864
+364,PBCT,People's United Financial,Financials,0.5090151776610284,1.014,0.9858
+207,BEN,Franklin Resources,Financials,0.5088508581114299,1.015,0.9847
+263,SJM,JM Smucker,Consumer Staples,0.5252151760916836,1.01,0.9895
+422,STE,Steris,Health Care,0.5178541001903809,1.011,0.989
+431,TPR,Tapestry,Consumer Discretionary,0.5065616343734615,1.019,0.9805
+242,IEX,IDEX Corporation,Industrials,0.516908480485736,1.01,0.9894
+183,ES,Eversource Energy,Utilities,0.5296258507467103,1.009,0.9903
+376,PFG,Principal Financial Group,Financials,0.5151457059528973,1.014,0.9851
+479,WRB,W. R. Berkley Corporation,Financials,0.5205859568922517,1.01,0.9895
+224,HAS,Hasbro,Consumer Discretionary,0.5283515198150422,1.013,0.9863
+465,UNH,UnitedHealth Group,Health Care,0.4850816336367572,1.011,0.9897
+177,EQR,Equity Residential,Real Estate,0.5373831308501611,1.01,0.9887
+430,TTWO,Take-Two Interactive,Communication Services,0.513281860009069,1.015,0.985
+12,AES,AES Corp,Utilities,0.5188281181489468,1.013,0.9861
+75,BXP,Boston Properties,Real Estate,0.5238168938840845,1.012,0.9871
+111,CTAS,Cintas Corporation,Industrials,0.5102390521522904,1.011,0.9886
+23,ALL,Allstate Corp,Financials,0.5334784124727386,1.01,0.9893
+264,JNJ,Johnson & Johnson,Health Care,0.5100142713674264,1.008,0.9922
+41,ADI,Analog Devices,Information Technology,0.5188101704350568,1.013,0.9863
+68,TECH,Bio-Techne,Health Care,0.5109922538518441,1.013,0.9864
+82,CHRW,C. H. Robinson,Industrials,0.5420642230720484,1.011,0.9877
+125,COP,ConocoPhillips,Energy,0.48597026853335995,1.018,0.9836
+77,BMY,Bristol Myers Squibb,Health Care,0.5019996764155837,1.01,0.9901
+172,ENPH,Enphase Energy,Information Technology,0.4753365039075854,1.034,0.9694
+339,NTRS,Northern Trust,Financials,0.504677713873378,1.013,0.9869
+71,BK,BNY Mellon,Financials,0.5221299850118435,1.012,0.9872
+66,BBY,Best Buy,Consumer Discretionary,0.5258782926815252,1.015,0.9833
+103,SCHW,Charles Schwab Corporation,Financials,0.5027055809394968,1.015,0.9853
+280,LRCX,Lam Research,Information Technology,0.48433741109576334,1.02,0.9819
+208,FCX,Freeport-McMoRan,Materials,0.4913156057174976,1.023,0.978
+336,NKE,Nike,Consumer Discretionary,0.5173142980377723,1.012,0.987
+211,IT,Gartner,Information Technology,0.506405742265717,1.013,0.9874
+26,MO,Altria Group,Consumer Staples,0.5580639306270256,1.01,0.988
+343,NRG,NRG Energy,Utilities,0.5091032576051749,1.014,0.9863
+358,PH,Parker-Hannifin,Industrials,0.5030861738136818,1.014,0.9861
+366,PKI,PerkinElmer,Health Care,0.5218744964515256,1.013,0.9862
+127,STZ,Constellation Brands,Consumer Staples,0.523604483112815,1.011,0.9886
+116,CLX,Clorox,Consumer Staples,0.5240804888298111,1.01,0.9892
+100,CERN,Cerner,Health Care,0.4983389715883245,1.009,0.991
+414,SPG,Simon Property Group,Real Estate,0.5039601278347304,1.016,0.9842
+468,VTR,Ventas,Real Estate,0.5179427263769025,1.014,0.9851
+230,HLT,Hilton Worldwide,Consumer Discretionary,0.5111782686323001,1.014,0.9855
+279,LH,LabCorp,Health Care,0.5121447107872381,1.011,0.9884
+79,BR,Broadridge Financial Solutions,Information Technology,0.5205644761669295,1.01,0.9895
+195,FITB,Fifth Third Bancorp,Financials,0.5148771386715042,1.015,0.9843
+374,PPG,PPG Industries,Materials,0.5173498967137243,1.012,0.9877
+141,DE,Deere & Co.,Industrials,0.5023727233723834,1.014,0.9861
+450,TDG,TransDigm Group,Industrials,0.5088471904294967,1.015,0.9849
+477,VNO,Vornado Realty Trust,Real Estate,0.5117832435689774,1.015,0.985
+388,PWR,Quanta Services,Industrials,0.49042890297048913,1.014,0.9865
+135,CMI,Cummins,Industrials,0.5174490258503188,1.012,0.9876
+389,DGX,Quest Diagnostics,Health Care,0.5055750440257436,1.01,0.9896
+485,WAT,Waters Corporation,Health Care,0.5351559491806755,1.011,0.9874
+138,DHR,Danaher Corporation,Health Care,0.49911601442902614,1.011,0.9895
+222,HAL,Halliburton,Energy,0.5077981033507575,1.021,0.9783
+502,ZBRA,Zebra Technologies,Information Technology,0.509194608996893,1.015,0.9843
+107,CB,Chubb,Financials,0.5226620117007138,1.01,0.9894
+276,KHC,Kraft Heinz,Consumer Staples,0.5308918565816029,1.011,0.9883
+46,AAPL,Apple,Information Technology,0.5081924876970261,1.013,0.9872
+295,MTB,M&T Bank,Financials,0.5168580070425329,1.014,0.9857
+57,AVB,AvalonBay Communities,Real Estate,0.5337406543866854,1.01,0.9892
+381,PTC,PTC,Information Technology,0.5266387123243391,1.014,0.9844
+152,DG,Dollar General,Consumer Discretionary,0.5076644343316373,1.01,0.9902
+247,INCY,Incyte,Health Care,0.5177489392858929,1.014,0.9855
+170,LLY,Eli Lilly & Co,Health Care,0.4984216528833108,1.011,0.9891
+397,RSG,Republic Services,Industrials,0.5201710784126244,1.008,0.992
+129,GLW,Corning,Information Technology,0.5163439985886998,1.013,0.9868
+238,HUM,Humana,Health Care,0.5101419605950337,1.012,0.988
+250,ICE,Intercontinental Exchange,Financials,0.5211138523805522,1.009,0.9905
+448,TSCO,Tractor Supply Company,Consumer Discretionary,0.5132754459150615,1.012,0.9873
+78,AVGO,Broadcom,Information Technology,0.5115476242024652,1.014,0.9855
+438,TXN,Texas Instruments,Information Technology,0.5109720400298796,1.012,0.9877
+133,CCI,Crown Castle,Real Estate,0.5222610172585112,1.01,0.9892
+258,IQV,IQVIA,Health Care,0.5053103468622804,1.013,0.9871
+436,TER,Teradyne,Information Technology,0.5094527061496927,1.017,0.9822
+72,BA,Boeing,Industrials,0.5032580207171067,1.019,0.9816
+184,EXC,Exelon,Utilities,0.5351735496136594,1.009,0.9896
+252,IP,International Paper,Materials,0.5319197883826119,1.013,0.9859
+1,MMM,3M,Industrials,0.5442844920409279,1.01,0.9887
+137,DHI,D. R. Horton,Consumer Discretionary,0.5009810082731481,1.016,0.9845
+154,D,Dominion Energy,Utilities,0.5334289825722863,1.009,0.9905
+22,LNT,Alliant Energy,Utilities,0.5193597945334877,1.009,0.9906
+313,MCHP,Microchip Technology,Information Technology,0.5049137576538809,1.017,0.9829
+435,TFX,Teleflex,Health Care,0.5326931715898711,1.012,0.9861
+427,SYY,Sysco,Consumer Staples,0.5118810395360015,1.013,0.9872
+454,TYL,Tyler Technologies,Information Technology,0.5356233555597391,1.012,0.9871
+391,RJF,Raymond James Financial,Financials,0.5065785745675254,1.014,0.9861
+237,HPQ,HP,Information Technology,0.5371494538049346,1.014,0.9845
+206,FOX,Fox Corporation (Class B),Communication Services,0.506059870958296,1.013,0.9874
+288,LYV,Live Nation Entertainment,Communication Services,0.5013983304073262,1.018,0.9826
+270,KEY,KeyCorp,Financials,0.5249225499725031,1.015,0.9838
+299,MAR,Marriott International,Consumer Discretionary,0.5181258868043382,1.015,0.984
+33,AIG,American International Group,Financials,0.526518341509191,1.014,0.9844
+345,NVDA,Nvidia,Information Technology,0.5084866927356522,1.02,0.9799
+500,XYL,Xylem,Industrials,0.5109571455653997,1.012,0.9875
+40,APH,Amphenol,Information Technology,0.5282467902526545,1.01,0.9887
+400,ROK,Rockwell Automation,Industrials,0.5239328930928143,1.012,0.9867
+113,C,Citigroup,Financials,0.5128380169803756,1.014,0.9856
+231,HOLX,Hologic,Health Care,0.5169496963648447,1.012,0.9877
+432,TGT,Target Corporation,Consumer Discretionary,0.49361786619755077,1.013,0.988
+245,ITW,Illinois Tool Works,Industrials,0.5094327608690733,1.011,0.9894
+254,INTU,Intuit,Information Technology,0.5179555105162612,1.014,0.9856
+283,LEG,Leggett & Platt,Consumer Discretionary,0.5238646912219322,1.014,0.9849
+165,EBAY,eBay,Consumer Discretionary,0.5036849364293962,1.013,0.9868
+309,MRK,Merck & Co.,Health Care,0.4989272908016247,1.009,0.991
+142,DAL,Delta Air Lines,Industrials,0.4937407426347165,1.018,0.9825
+416,SNA,Snap-on,Industrials,0.5167204382081982,1.012,0.9873
+482,WBA,Walgreens Boots Alliance,Consumer Staples,0.5355781476187647,1.012,0.9865
+5,ABMD,Abiomed,Health Care,0.5114861523117842,1.018,0.9813
+114,CFG,Citizens Financial Group,Financials,0.5154775028445635,1.016,0.9834
+55,ADP,Automatic Data Processing,Information Technology,0.5234958326085768,1.01,0.9896
+265,JCI,Johnson Controls,Industrials,0.5219364462301432,1.012,0.9877
+325,MSI,Motorola Solutions,Information Technology,0.503905661494742,1.011,0.989
+136,CVS,CVS Health,Health Care,0.5078675235379077,1.012,0.9883
+117,CME,CME Group,Financials,0.5150515230731915,1.01,0.9896
+45,APA,APA Corporation,Energy,0.501704856819859,1.027,0.9735
+145,DXCM,DexCom,Health Care,0.4952867690772871,1.02,0.9811
+418,LUV,Southwest Airlines,Industrials,0.49389870459596,1.016,0.9849
+444,TRV,The Travelers Companies,Financials,0.5378706405303281,1.009,0.9893
+282,LVS,Las Vegas Sands,Consumer Discretionary,0.5017197421898582,1.018,0.9818
+275,KLAC,KLA Corporation,Information Technology,0.5019842114308883,1.017,0.9831
+337,NI,NiSource,Utilities,0.5422249872738462,1.009,0.9896
+342,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,0.500376604499315,1.026,0.9743
+393,O,Realty Income Corporation,Real Estate,0.5389567991062882,1.01,0.9892
+457,UDR,UDR,Real Estate,0.5375605808164169,1.01,0.9888
+460,UA,Under Armour (Class C),Consumer Discretionary,0.5184133809476723,1.02,0.9786
+363,PNR,Pentair,Industrials,0.5475223728665738,1.012,0.986
+378,PGR,Progressive Corporation,Financials,0.5156798101911665,1.01,0.9899
+351,OMC,Omnicom Group,Communication Services,0.5197256306508972,1.012,0.9873
+158,DTE,DTE Energy,Utilities,0.5287266351491734,1.009,0.9905
+218,GILD,Gilead Sciences,Health Care,0.4974553073040978,1.011,0.9898
+176,EQIX,Equinix,Real Estate,0.5033882606887615,1.012,0.9883
+437,TSLA,Tesla,Consumer Discretionary,0.4923741911797939,1.027,0.9744
+148,DFS,Discover Financial Services,Financials,0.5178231656725568,1.016,0.9829
+92,CAT,Caterpillar,Industrials,0.5033857697410982,1.014,0.9864
+36,AMP,Ameriprise Financial,Financials,0.5146919749208022,1.014,0.9853
+469,VRSN,Verisign,Information Technology,0.5264735101110739,1.011,0.9886
+451,TRMB,Trimble,Information Technology,0.5098059303171527,1.015,0.9852
+118,CMS,CMS Energy,Utilities,0.5228333339441733,1.009,0.991
+162,DXC,DXC Technology,Information Technology,0.5235817272753441,1.019,0.9793
+494,WHR,Whirlpool Corporation,Consumer Discretionary,0.5121274906864106,1.015,0.9844
+84,CZR,Caesars Entertainment,Consumer Discretionary,0.4847633827251976,1.025,0.9772
+7,ATVI,Activision Blizzard,Communication Services,0.49756466979858993,1.013,0.9877
+203,FTV,Fortive,Industrials,0.5271434123523683,1.011,0.9879
+25,GOOG,Alphabet (Class C),Communication Services,0.5080507764666419,1.012,0.9882
+95,CDW,CDW,Information Technology,0.5082714031739435,1.012,0.9877
+292,LOW,Lowe's,Consumer Discretionary,0.5242155470609796,1.012,0.9868
+353,ORCL,Oracle,Information Technology,0.508355710440806,1.01,0.9897
+232,HD,Home Depot,Consumer Discretionary,0.5356294914516835,1.01,0.9888
+93,CBOE,Cboe Global Markets,Financials,0.5317575805164453,1.01,0.9885
+296,MRO,Marathon Oil,Energy,0.4843740790463121,1.024,0.9777
+304,MTCH,Match Group,Communication Services,0.46196671685210944,1.024,0.9795
+18,ALB,Albemarle Corporation,Materials,0.5106691524335633,1.019,0.9802
+240,HII,Huntington Ingalls Industries,Industrials,0.5196227616422273,1.012,0.9872
+476,V,Visa,Information Technology,0.5119003225319102,1.011,0.989
+147,DLR,Digital Realty Trust,Real Estate,0.5300735497415274,1.011,0.9878
+16,AKAM,Akamai Technologies,Information Technology,0.5223820202327534,1.011,0.9882
+370,PNW,Pinnacle West Capital,Utilities,0.5338039693202541,1.009,0.9896
+415,SWKS,Skyworks Solutions,Information Technology,0.5083264015942022,1.016,0.9837
+287,LIN,Linde,Materials,0.5027737550046312,1.011,0.9892
+349,OXY,Occidental Petroleum,Energy,0.5000600800398138,1.022,0.9779
+19,ARE,Alexandria Real Estate Equities,Real Estate,0.5209407806354515,1.01,0.9899
+44,AON,Aon,Financials,0.5230903506714482,1.009,0.9902
+266,JPM,JPMorgan Chase,Financials,0.5151443052179191,1.012,0.9878
+217,GPC,Genuine Parts,Consumer Discretionary,0.5122361755893172,1.011,0.9889
+31,AEP,American Electric Power,Utilities,0.5343739642455516,1.008,0.9906
+146,FANG,Diamondback Energy,Energy,0.49908286590683565,1.024,0.9768
+368,PM,Philip Morris International,Consumer Staples,0.5489691415486907,1.01,0.9887
+489,WST,West Pharmaceutical Services,Health Care,0.5206901287123281,1.012,0.9868
+74,BWA,BorgWarner,Consumer Discretionary,0.5035369740181235,1.016,0.9838
+61,BAC,Bank of America,Financials,0.5170439818927249,1.013,0.9862
+29,AEE,Ameren Corp,Utilities,0.5284528511523503,1.009,0.9907
+412,NOW,ServiceNow,Information Technology,0.508860782045808,1.017,0.9826
+390,RL,Ralph Lauren Corporation,Consumer Discretionary,0.5129549989399336,1.017,0.9822
+380,PRU,Prudential Financial,Financials,0.5223157583770199,1.014,0.9854
+212,GNRC,Generac Holdings,Industrials,0.5081976023966845,1.019,0.9811
+303,MA,Mastercard,Information Technology,0.5177022815542193,1.012,0.9871
+424,SIVB,SVB Financial,Financials,0.5172534993616659,1.019,0.9798
+228,HES,Hess Corporation,Energy,0.48239743675868807,1.021,0.9805
+159,DUK,Duke Energy,Utilities,0.5247205658028243,1.008,0.9911
+193,FDX,FedEx,Industrials,0.5152702048669029,1.014,0.9854
+463,UPS,United Parcel Service,Industrials,0.5156502006161692,1.011,0.9884
+101,CF,CF Industries,Materials,0.4974545633054609,1.019,0.9819
+360,PAYC,Paycom,Information Technology,0.529149206771894,1.018,0.98
+105,CVX,Chevron Corporation,Energy,0.49719409926153374,1.013,0.9874
+223,HBI,Hanesbrands,Consumer Discretionary,0.5070779531041337,1.018,0.9819
+399,RHI,Robert Half International,Industrials,0.5071051379164169,1.014,0.9863
+488,WELL,Welltower,Real Estate,0.5090095253398031,1.014,0.986
+285,LEN,Lennar,Consumer Discretionary,0.5058629531215222,1.016,0.9836
+17,ALK,Alaska Air Group,Industrials,0.4903937769504163,1.018,0.9826
+421,STT,State Street Corporation,Financials,0.5133574559128881,1.015,0.9847
+271,KEYS,Keysight Technologies,Information Technology,0.5022592345679858,1.013,0.9872
+335,NLSN,Nielsen Holdings,Industrials,0.48525259240836516,1.015,0.986
+426,SNPS,Synopsys,Information Technology,0.5131623395720494,1.013,0.9865
+166,ECL,Ecolab,Materials,0.5174368864095789,1.011,0.9891
+198,FISV,Fiserv,Information Technology,0.522490770605665,1.011,0.988
+214,GE,General Electric,Industrials,0.49221677648690515,1.018,0.9826
+331,NEM,Newmont,Materials,0.49328504126228084,1.014,0.9872
+80,BRO,Brown & Brown,Financials,0.5272219063811805,1.009,0.9901
+462,UAL,United Airlines,Industrials,0.5099706901310926,1.021,0.9787
+89,CCL,Carnival Corporation,Consumer Discretionary,0.5110188098310493,1.024,0.975
+51,AIZ,Assurant,Financials,0.5219301728681519,1.01,0.989
+274,KMI,Kinder Morgan,Energy,0.5107617673436718,1.012,0.9879
+246,ILMN,Illumina,Health Care,0.5024977770597772,1.016,0.9837
+490,WDC,Western Digital,Information Technology,0.5073763775178954,1.02,0.9793
+143,XRAY,Dentsply Sirona,Health Care,0.5220581109562993,1.013,0.9864
+48,APTV,Aptiv,Consumer Discretionary,0.5113327212662419,1.017,0.9821
+15,APD,Air Products & Chemicals,Materials,0.5111474112895154,1.01,0.9896
+493,WY,Weyerhaeuser,Real Estate,0.5123632767005329,1.013,0.9863
+330,NWL,Newell Brands,Consumer Discretionary,0.5153890480983938,1.017,0.9828
+97,CNC,Centene Corporation,Health Care,0.49654963464957047,1.014,0.9861
+284,LDOS,Leidos,Industrials,0.5340543357763289,1.011,0.9882
+134,CSX,CSX,Industrials,0.5081116057801959,1.011,0.9885
+402,ROP,Roper Technologies,Industrials,0.5199574649909248,1.01,0.9897
+413,SHW,Sherwin-Williams,Materials,0.5099233762618369,1.011,0.9888
+110,CINF,Cincinnati Financial,Financials,0.5317544537099707,1.011,0.9873
+501,YUM,Yum! Brands,Consumer Discretionary,0.5174881820308184,1.009,0.9903
+30,AAL,American Airlines Group,Industrials,0.4871173835194765,1.024,0.9771
+419,SWK,Stanley Black & Decker,Industrials,0.5231622121811376,1.015,0.9842
+234,HRL,Hormel,Consumer Staples,0.5341463605849608,1.008,0.991
+6,ACN,Accenture,Information Technology,0.5290089140943657,1.01,0.9888
+473,VFC,VF Corporation,Consumer Discretionary,0.5363292220406093,1.014,0.9842
+219,GPN,Global Payments,Information Technology,0.5237767105034424,1.014,0.9854
+367,PFE,Pfizer,Health Care,0.49406823495865887,1.011,0.99
+272,KMB,Kimberly-Clark,Consumer Staples,0.5016599545148528,1.009,0.9914
+182,EVRG,Evergy,Utilities,0.5414341720998522,1.009,0.9898
+164,ETN,Eaton Corporation,Industrials,0.509391035728567,1.012,0.988
+153,DLTR,Dollar Tree,Consumer Discretionary,0.5143737360881365,1.013,0.987
+186,EXPD,Expeditors,Industrials,0.5076637469841851,1.011,0.9894
+253,IPG,Interpublic Group,Communication Services,0.5022885722381533,1.014,0.986
+470,VRSK,Verisk Analytics,Industrials,0.528044571080161,1.009,0.9899
+64,BDX,Becton Dickinson,Health Care,0.5228329350423627,1.009,0.9901
+267,JNPR,Juniper Networks,Information Technology,0.5296667090214755,1.011,0.9879
+394,REG,Regency Centers,Real Estate,0.5157778342380127,1.013,0.987
+139,DRI,Darden Restaurants,Consumer Discretionary,0.4941973745079187,1.015,0.9854
+13,AFL,Aflac,Financials,0.5280306808590816,1.01,0.989
+359,PAYX,Paychex,Information Technology,0.516280338111236,1.01,0.9897
+4,ABBV,AbbVie,Health Care,0.5098376839592046,1.011,0.9886
+405,SPGI,S&P Global,Financials,0.5062494943965514,1.011,0.9891
+104,CHTR,Charter Communications,Communication Services,0.5249321094975425,1.012,0.9874
+316,MAA,Mid-America Apartments,Real Estate,0.5438290834106234,1.009,0.9893
+456,USB,U.S. Bancorp,Financials,0.522872453400804,1.012,0.9875
+328,NTAP,NetApp,Information Technology,0.5257153627123796,1.014,0.9844
+179,EL,Estée Lauder Companies,Consumer Staples,0.507558956033592,1.013,0.9873
+52,T,AT&T,Communication Services,0.5280816753933413,1.009,0.9898
+369,PSX,Phillips 66,Energy,0.5165985007400005,1.015,0.9838
+410,SEE,Sealed Air,Materials,0.5240871818154744,1.012,0.9868
+356,PCAR,Paccar,Industrials,0.5054549236530307,1.011,0.9889
+486,WEC,WEC Energy Group,Utilities,0.5193728127699089,1.009,0.9907
+300,MMC,Marsh & McLennan,Financials,0.5185157055319345,1.008,0.9912
+171,EMR,Emerson Electric Company,Industrials,0.5145323672195916,1.012,0.9879
+11,AMD,Advanced Micro Devices,Information Technology,0.495670713618458,1.022,0.9785
+302,MAS,Masco,Industrials,0.5115095332202741,1.012,0.9875
+43,ANTM,Anthem,Health Care,0.5010057299042595,1.013,0.9876
+478,VMC,Vulcan Materials,Materials,0.48578240213484547,1.014,0.9873
+487,WFC,Wells Fargo,Financials,0.5326227409729606,1.013,0.9854
+69,BIIB,Biogen,Health Care,0.49186863559448724,1.015,0.9861
+85,CPB,Campbell Soup,Consumer Staples,0.5212130320922275,1.01,0.9891
+119,KO,Coca-Cola Company,Consumer Staples,0.5330711706922704,1.008,0.9917
+39,AMGN,Amgen,Health Care,0.5067322334401826,1.01,0.9902
+406,CRM,Salesforce,Information Technology,0.5243835242728306,1.014,0.9847
+216,GM,General Motors,Consumer Discretionary,0.509878689282909,1.017,0.9827
+495,WMB,Williams Companies,Energy,0.5000181432271692,1.013,0.9871
+126,ED,Consolidated Edison,Utilities,0.5437785775964067,1.008,0.9904
+108,CHD,Church & Dwight,Consumer Staples,0.5260217162011804,1.009,0.9904
+441,HIG,The Hartford,Financials,0.5150478251599601,1.012,0.9877
+443,MOS,The Mosaic Company,Materials,0.49456459874144254,1.021,0.9797
+382,PEG,Public Service Enterprise Group,Utilities,0.5152820131761296,1.009,0.9904
+156,DOV,Dover Corporation,Industrials,0.5126392677893555,1.011,0.9886
+439,TXT,Textron,Industrials,0.5038234108168097,1.015,0.9852
+124,CAG,Conagra Brands,Consumer Staples,0.5150685927115435,1.011,0.9889
+10,AAP,Advance Auto Parts,Consumer Discretionary,0.5033874359252456,1.013,0.9869
+2,AOS,A. O. Smith,Industrials,0.5101304669878628,1.012,0.9875
+261,JKHY,Jack Henry & Associates,Information Technology,0.5426992682527498,1.009,0.9893
+27,AMZN,Amazon,Consumer Discretionary,0.5133893807491884,1.014,0.9859
+307,MCK,McKesson Corporation,Health Care,0.5250328627312512,1.012,0.987
+144,DVN,Devon Energy,Energy,0.4914895046856902,1.024,0.9767
+273,KIM,Kimco Realty,Real Estate,0.5135838688572261,1.015,0.9847
+257,IPGP,IPG Photonics,Information Technology,0.5260306899962934,1.017,0.981
+352,OKE,Oneok,Energy,0.5397666937408271,1.015,0.9825
+200,FMC,FMC Corporation,Materials,0.5131603766486975,1.013,0.9869
+290,LMT,Lockheed Martin,Industrials,0.49813435680481194,1.01,0.9904
+20,ALGN,Align Technology,Health Care,0.5062487970276164,1.02,0.9796
+312,MGM,MGM Resorts International,Consumer Discretionary,0.5160493717360135,1.02,0.9791
+484,WM,Waste Management,Industrials,0.5208113145461536,1.008,0.9918
+81,BF.B,Brown–Forman,Consumer Staples,0.5235328585709796,1.01,0.9895
+340,NOC,Northrop Grumman,Industrials,0.4941876924475243,1.011,0.9893
+187,EXR,Extra Space Storage,Real Estate,0.5159310578066867,1.011,0.9891
+213,GD,General Dynamics,Industrials,0.5300718357713645,1.01,0.9891
+329,NFLX,Netflix,Communication Services,0.4943694129330181,1.018,0.9831
+398,RMD,ResMed,Health Care,0.5265615371352174,1.012,0.9875
+344,NUE,Nucor,Materials,0.49405636898555677,1.017,0.9839
+346,NVR,NVR,Consumer Discretionary,0.5284320773876542,1.013,0.9855
+189,FFIV,F5 Networks,Information Technology,0.5172461806808581,1.013,0.9869
+9,ADBE,Adobe,Information Technology,0.5448196550139017,1.013,0.985
+227,HSIC,Henry Schein,Health Care,0.5246652871777072,1.012,0.9869
+294,LYB,LyondellBasell,Materials,0.49079018728320123,1.017,0.9843
+109,CI,Cigna,Health Care,0.5070517506598576,1.013,0.987
+409,STX,Seagate Technology,Information Technology,0.5260553824785172,1.016,0.9828
+481,WAB,Wabtec,Industrials,0.5177938312430298,1.015,0.9846
+445,DIS,The Walt Disney Company,Communication Services,0.4976351505585553,1.012,0.988
+453,TWTR,Twitter,Communication Services,0.4906666700416709,1.02,0.9806
+466,UHS,Universal Health Services,Health Care,0.5115220763487694,1.014,0.9861
+249,INTC,Intel,Information Technology,0.5217104347312214,1.013,0.986
+383,PSA,Public Storage,Real Estate,0.5225397830023798,1.009,0.9902
+395,REGN,Regeneron Pharmaceuticals,Health Care,0.4852860336955894,1.014,0.9874
+372,PNC,PNC Financial Services,Financials,0.521912400210282,1.012,0.9869
+241,IBM,IBM,Information Technology,0.5296647239880715,1.01,0.9892
+401,ROL,Rollins,Industrials,0.5278895314741855,1.011,0.9885
+88,KMX,CarMax,Consumer Discretionary,0.5126502230041154,1.016,0.9838
+209,GPS,Gap,Consumer Discretionary,0.5137953210049366,1.023,0.976
+120,CTSH,Cognizant Technology Solutions,Information Technology,0.5143497479028387,1.011,0.9886
+498,XEL,Xcel Energy,Utilities,0.5296900845322866,1.009,0.9907
+323,MCO,Moody's Corporation,Financials,0.5213602361396124,1.011,0.9879
+260,JBHT,J. B. Hunt,Industrials,0.5163264836904358,1.012,0.9873
+297,MPC,Marathon Petroleum,Energy,0.5031733648716706,1.018,0.9824
+24,GOOGL,Alphabet (Class A),Communication Services,0.5070277077217907,1.012,0.9882
+8,ADM,ADM,Consumer Staples,0.5181736505883094,1.01,0.9891
+37,ABC,AmerisourceBergen,Health Care,0.5183468701323349,1.012,0.9873
+83,CDNS,Cadence Design Systems,Information Technology,0.5123480109405755,1.014,0.9857
+190,FB,Facebook,Communication Services,0.530216069236317,1.014,0.9847
+201,F,Ford,Consumer Discretionary,0.49161596424816467,1.017,0.9837
+99,CDAY,Ceridian,Information Technology,0.5179408469448437,1.019,0.9799
+121,CL,Colgate-Palmolive,Consumer Staples,0.5218143211603518,1.008,0.9921
+311,MTD,Mettler Toledo,Health Care,0.5129224107047464,1.012,0.9874
+281,LW,Lamb Weston,Consumer Staples,0.5104956966617575,1.013,0.9867
+14,A,Agilent Technologies,Health Care,0.5176192761560359,1.011,0.9881
+464,URI,United Rentals,Industrials,0.4972751570947715,1.02,0.981
+491,WU,Western Union,Information Technology,0.5278804019855637,1.011,0.9879
+386,QRVO,Qorvo,Information Technology,0.501864312473614,1.017,0.9832
+433,TEL,TE Connectivity,Information Technology,0.5200274207006663,1.012,0.9871
+447,TJX,TJX Companies,Consumer Discretionary,0.5005534615084561,1.013,0.9877
+314,MU,Micron Technology,Information Technology,0.495476036531851,1.02,0.9808
+357,PKG,Packaging Corporation of America,Materials,0.5122438661125975,1.012,0.9877
+461,UNP,Union Pacific,Industrials,0.5213713740087508,1.011,0.9883
+480,GWW,W. W. Grainger,Industrials,0.5064622944937416,1.012,0.9879
+334,NEE,NextEra Energy,Utilities,0.5226081725430599,1.01,0.9898
+403,ROST,Ross Stores,Consumer Discretionary,0.5169105173761159,1.014,0.9854
+174,EOG,EOG Resources,Energy,0.48188685886409244,1.02,0.9816
+496,WLTW,Willis Towers Watson,Financials,0.5289628985412753,1.009,0.9897
+322,MNST,Monster Beverage,Consumer Staples,0.5123525365567457,1.011,0.989
+269,K,Kellogg's,Consumer Staples,0.5348115005263091,1.009,0.9903
+315,MSFT,Microsoft,Information Technology,0.5224256607508603,1.011,0.9886
+123,CMA,Comerica,Financials,0.5217766707123987,1.016,0.983
+305,MKC,McCormick & Company,Consumer Staples,0.5178276697032519,1.009,0.9905
+423,SYK,Stryker Corporation,Health Care,0.5149831457464106,1.011,0.9882
+497,WYNN,Wynn Resorts,Consumer Discretionary,0.4842450314166154,1.023,0.9783
+32,AXP,American Express,Financials,0.5091188600533094,1.013,0.9864
+197,FE,FirstEnergy,Utilities,0.54924351910245,1.009,0.9892
+233,HON,Honeywell,Industrials,0.522828428949962,1.01,0.9894
+196,FRC,First Republic Bank,Financials,0.5103174990113765,1.013,0.9872
+320,MDLZ,Mondelez International,Consumer Staples,0.525952240311996,1.008,0.9918
+408,SLB,Schlumberger,Energy,0.4900180331069493,1.02,0.9812
+471,VZ,Verizon Communications,Communication Services,0.5283522708813043,1.007,0.992
+324,MS,Morgan Stanley,Financials,0.5143695552398622,1.014,0.9858
+210,GRMN,Garmin,Consumer Discretionary,0.5103046658148882,1.011,0.9891
+151,DISH,Dish Network,Communication Services,0.5039743341445239,1.019,0.9812
+505,ZTS,Zoetis,Health Care,0.5177645326898805,1.011,0.9889
+239,HBAN,Huntington Bancshares,Financials,0.5117764047602713,1.015,0.985
+54,ADSK,Autodesk,Information Technology,0.515558057551861,1.016,0.9834
+63,BAX,Baxter International,Health Care,0.55049558298727,1.009,0.9893
+191,FAST,Fastenal,Industrials,0.5118610992414947,1.011,0.9886
+91,CTLT,Catalent,Health Care,0.5229179452768054,1.015,0.9834
+205,FOXA,Fox Corporation (Class A),Communication Services,0.5080060583006901,1.013,0.9869
+244,INFO,IHS Markit,Industrials,0.5154326618249737,1.01,0.9902
+327,NDAQ,Nasdaq,Financials,0.5259317927353288,1.01,0.9895
+150,DISCK,Discovery (Series C),Communication Services,0.49924067630497165,1.018,0.9822
+483,WMT,Walmart,Consumer Staples,0.5028516831119391,1.009,0.9917
+122,CMCSA,Comcast,Communication Services,0.5190780137438624,1.011,0.9888
+58,AVY,Avery Dennison,Materials,0.5110990962860366,1.012,0.9876
+199,FLT,Fleetcor,Information Technology,0.5207484286997798,1.013,0.9859
+434,TDY,Teledyne Technologies,Industrials,0.5231329673285174,1.012,0.9874
+173,ETR,Entergy,Utilities,0.5333316438223278,1.009,0.9896
+256,IVZ,Invesco,Financials,0.5283086837165502,1.017,0.9817
+188,XOM,ExxonMobil,Energy,0.49971502043065796,1.014,0.9867
+277,KR,Kroger,Consumer Staples,0.5234247665205257,1.012,0.9874
+361,PYPL,PayPal,Information Technology,0.5254588904380704,1.016,0.9831
+98,CNP,CenterPoint Energy,Utilities,0.530422100653451,1.01,0.9886
+235,HST,Host Hotels & Resorts,Real Estate,0.493041847779209,1.016,0.9848
+204,FBHS,Fortune Brands Home & Security,Industrials,0.5217399113788028,1.014,0.9849
+385,PVH,PVH,Consumer Discretionary,0.4935026099108459,1.022,0.9789
+377,PG,Procter & Gamble,Consumer Staples,0.5149055464495715,1.008,0.992
+411,SRE,Sempra Energy,Utilities,0.5237978056243728,1.01,0.9897
+310,MET,MetLife,Financials,0.5225453324483503,1.013,0.9865
+321,MPWR,Monolithic Power Systems,Information Technology,0.5045347949165859,1.018,0.9818
+371,PXD,Pioneer Natural Resources,Energy,0.4994246960057489,1.019,0.9815
+384,PHM,PulteGroup,Consumer Discretionary,0.5252748848960436,1.015,0.9834
+76,BSX,Boston Scientific,Health Care,0.5202725443003197,1.012,0.9875
+34,AMT,American Tower,Real Estate,0.519393537670665,1.01,0.9891
+318,MHK,Mohawk Industries,Consumer Discretionary,0.5136948959824105,1.017,0.9822
+243,IDXX,Idexx Laboratories,Health Care,0.5269331502246805,1.014,0.9853
+50,AJG,Arthur J. Gallagher & Co.,Financials,0.5355350214597138,1.009,0.9902
+194,FIS,Fidelity National Information Services,Information Technology,0.520079763123621,1.011,0.988
+167,EIX,Edison International,Utilities,0.531648654876853,1.011,0.9879
+301,MLM,Martin Marietta Materials,Materials,0.4945098444220774,1.014,0.9865
+317,MRNA,Moderna,Health Care,0.46301786829459624,1.036,0.9692
+132,CTRA,Coterra,Energy,0.4804759400595955,1.034,0.9689
+140,DVA,DaVita,Health Care,0.5119121932594352,1.013,0.9863
+202,FTNT,Fortinet,Information Technology,0.5372613200356328,1.015,0.9824
+248,IR,Ingersoll Rand,Industrials,0.5269192535356005,1.013,0.9858
+169,EA,Electronic Arts,Communication Services,0.5183532993720743,1.012,0.9873
+42,ANSS,Ansys,Information Technology,0.5193908592551941,1.013,0.986
+458,ULTA,Ulta Beauty,Consumer Discretionary,0.5189586737200289,1.016,0.9834
+87,CAH,Cardinal Health,Health Care,0.5215478206644523,1.013,0.9866
+442,HSY,The Hershey Company,Consumer Staples,0.528333095324718,1.008,0.9915
+455,TSN,Tyson Foods,Consumer Staples,0.508875054815084,1.011,0.9885
+180,ETSY,Etsy,Consumer Discretionary,0.49880704834015444,1.026,0.9747
+255,ISRG,Intuitive Surgical,Health Care,0.5126924270077604,1.014,0.9857
+160,DRE,Duke Realty Corp,Real Estate,0.5224438567240667,1.01,0.9898
+289,LKQ,LKQ Corporation,Consumer Discretionary,0.48597587791622443,1.015,0.9862
+49,ANET,Arista Networks,Information Technology,0.5028222072684145,1.017,0.9835
+291,L,Loews Corporation,Financials,0.5243414656440516,1.011,0.9885
+503,ZBH,Zimmer Biomet,Health Care,0.5019504987498564,1.012,0.9879
+106,CMG,Chipotle Mexican Grill,Consumer Discretionary,0.500851490188255,1.015,0.9856
+94,CBRE,CBRE,Real Estate,0.5101159720447789,1.014,0.986
+225,HCA,HCA Healthcare,Health Care,0.4900072871730036,1.015,0.9863
+428,TMUS,T-Mobile US,Communication Services,0.4815359473359708,1.011,0.9901
+102,CRL,Charles River Laboratories,Health Care,0.5228894902728173,1.014,0.9848
+128,CPRT,Copart,Industrials,0.5094622793549154,1.012,0.9875
+259,IRM,Iron Mountain,Real Estate,0.5186790398932747,1.012,0.9875
+347,NXPI,NXP,Information Technology,0.500006115704185,1.018,0.9827
+350,ODFL,Old Dominion Freight Line,Industrials,0.5055909433475597,1.014,0.9863
+332,NWSA,News Corp (Class A),Communication Services,0.5030246090728325,1.013,0.987
+21,ALLE,Allegion,Industrials,0.5182780509058436,1.012,0.9877
+375,PPL,PPL,Utilities,0.538321724357725,1.009,0.9897
+229,HPE,Hewlett Packard Enterprise,Information Technology,0.5269950076066822,1.014,0.9846
+379,PLD,Prologis,Real Estate,0.5204492323667902,1.011,0.9887
+163,EMN,Eastman Chemical,Materials,0.5161097466056613,1.014,0.9854
+38,AME,Ametek,Industrials,0.5126018106948954,1.01,0.9894
+396,RF,Regions Financial Corporation,Financials,0.5026926022523244,1.016,0.9844
+131,COST,Costco,Consumer Staples,0.5151472494987694,1.009,0.9908
+440,COO,The Cooper Companies,Health Care,0.5339346777758959,1.011,0.9881
+70,BLK,BlackRock,Financials,0.5188750773818448,1.013,0.9868
+192,FRT,Federal Realty Investment Trust,Real Estate,0.5235960565432014,1.012,0.987
+326,MSCI,MSCI,Financials,0.519727199786841,1.014,0.9857
+221,GS,Goldman Sachs,Financials,0.49278186283651654,1.013,0.9875
+373,POOL,Pool Corporation,Consumer Discretionary,0.519347002423918,1.013,0.9865
+53,ATO,Atmos Energy,Utilities,0.5126332528216929,1.009,0.9909
+362,PENN,Penn National Gaming,Consumer Discretionary,0.4890915938050025,1.028,0.9739
+47,AMAT,Applied Materials,Information Technology,0.4990482344623848,1.019,0.9819
+175,EFX,Equifax,Industrials,0.5176538352408308,1.012,0.9871
+407,SBAC,SBA Communications,Real Estate,0.5273604518818421,1.011,0.9882
+492,WRK,WestRock,Materials,0.5345221488269186,1.015,0.9829
+286,LNC,Lincoln National,Financials,0.5211256480409993,1.019,0.9796
+338,NSC,Norfolk Southern,Industrials,0.512784215113238,1.012,0.9877
+467,VLO,Valero Energy,Energy,0.5037181245870281,1.018,0.9819
+178,ESS,Essex Property Trust,Real Estate,0.5251602358114438,1.01,0.9889
+3,ABT,Abbott Laboratories,Health Care,0.5214222182267398,1.01,0.9894
+387,QCOM,Qualcomm,Information Technology,0.503855215865273,1.015,0.9849
+306,MCD,McDonald's,Consumer Discretionary,0.5182098291527834,1.008,0.9915
+459,UAA,Under Armour (Class A),Consumer Discretionary,0.5123809406283473,1.021,0.9783
+96,CE,Celanese,Materials,0.49448050221356876,1.015,0.9859
+472,VRTX,Vertex Pharmaceuticals,Health Care,0.5105108738249864,1.012,0.9875
+149,DISCA,Discovery (Series A),Communication Services,0.49608096854944894,1.019,0.9818
+155,DPZ,Domino's Pizza,Consumer Discretionary,0.4942038261490406,1.012,0.9884
+181,RE,Everest Re,Financials,0.5138840786081335,1.011,0.9884
+65,BRK.B,Berkshire Hathaway,Financials,0.49951399417375225,1.009,0.9916
+504,ZION,Zions Bancorp,Financials,0.5058807099660867,1.016,0.9844
+446,TMO,Thermo Fisher Scientific,Health Care,0.5116193054399448,1.011,0.9884
+298,MKTX,MarketAxess,Financials,0.5196374344210261,1.013,0.9859
+499,XLNX,Xilinx,Information Technology,0.4879450826723703,1.017,0.9846
