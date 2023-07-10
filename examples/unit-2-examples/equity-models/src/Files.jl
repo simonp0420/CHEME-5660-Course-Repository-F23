@@ -8,10 +8,22 @@ function loaddataset()::Dict{Int64, DataFrame}
 end
 
 """
-    loadmodelparametersfile(type::MyEquityModelParameters) -> DataFrame
+    loadmodelparametersfile(type::Type{MyRealWorldEquityModelParameters}) -> DataFrame
 """
-function loadmodelparametersfile(type::Type{MyEquityModelParameters})::DataFrame
-    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Binomial.csv")
+function loadmodelparametersfile(type::Type{MyRealWorldEquityModelParameters})::DataFrame
+    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Real-World-Binomial.csv")
+    parameters = CSV.read(path_to_parameters, DataFrame);
+    return parameters;
+end
+
+function loadmodelparametersfile(type::Type{MyRiskNeutralEquityModelParameters})::DataFrame
+    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Risk-Neutral-Binomial.csv")
+    parameters = CSV.read(path_to_parameters, DataFrame);
+    return parameters;
+end
+
+function loadmodelparametersfile(type::Type{MySymmetricRiskNeutralEquityModelParameters})::DataFrame
+    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Risk-Neutral-Binomial-Symmetric.csv")
     parameters = CSV.read(path_to_parameters, DataFrame);
     return parameters;
 end
