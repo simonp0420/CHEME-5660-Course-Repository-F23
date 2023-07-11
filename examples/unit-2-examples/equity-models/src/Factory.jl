@@ -23,7 +23,6 @@ function _build(modeltype::Type{T}, data::NamedTuple) where T <: AbstractAssetMo
     return model
 end
 
-"""
-    build(model::Type{MyBinomialEquityPriceTree}, data::NamedTuple) -> MyBinomialEquityPriceTree
-"""
+# build methods -
 build(model::Type{MyBinomialEquityPriceTree}, data::NamedTuple)::MyBinomialEquityPriceTree = _build(model, data)
+build(model::Type{MyGeometricBrownianMotionEquityModel}, data::NamedTuple)::MyGeometricBrownianMotionEquityModel = _build(model, data)
