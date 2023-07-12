@@ -14,6 +14,10 @@ struct MySymmetricRiskNeutralEquityModelParameters <: AbstractEquityModelParamet
     MySymmetricRiskNeutralEquityModelParameters() = new()
 end
 
+struct MyHistoricalVolatilityGBMEquityModelParameters <: AbstractEquityModelParametersType
+    MyHistoricalVolatilityGBMEquityModelParameters() = new()
+end
+
 mutable struct MyBiomialLatticeEquityNodeModel
 
     # data -
