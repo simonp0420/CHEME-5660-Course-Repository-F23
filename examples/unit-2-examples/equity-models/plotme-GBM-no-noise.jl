@@ -51,22 +51,21 @@ ax_wfc = Axis(fig[1,2], xlabel = "Time (years)", ylabel = "ln(price)", backgroun
 # AMD
 lines!(ax_amd, T, L2_AMD, color=:gray75);
 lines!(ax_amd, T, U2_AMD, color=:gray75);
-band!(ax_amd, T, L1_AMD, U1_AMD, color=(:red,0.25), transparent = true);
-lines!(ax_amd, T, mean_prediction_AMD, color=:red, linewidth=2, linestyle=:dash, label="AMD (model)");
-band!(ax_amd, T, L2_AMD, U2_AMD, color=(:lightskyblue,0.25), transparent = true);
-lines!(ax_amd, T, Y_AMD, color=:navyblue, label="AMD (actual)");
+band!(ax_amd, T, L1_AMD, U1_AMD, color=(:dodgerblue,0.6), transparent = true);
+lines!(ax_amd, T, mean_prediction_AMD, color=:navy, linewidth=2, linestyle=:dash, label="AMD (expected)");
+band!(ax_amd, T, L2_AMD, U2_AMD, color=(:skyblue1,0.25), transparent = true);
+lines!(ax_amd, T, Y_AMD, color=:red, label="AMD (actual)", linewidth=2, linestyle=:solid);
 a1 = axislegend(ax_amd, position=:lt, framevisible = false)
 
 # WFC
 lines!(ax_wfc, T, L2_WFC, color=:gray75);
 lines!(ax_wfc, T, U2_WFC, color=:gray75);
-band!(ax_wfc, T, L1_WFC, U1_WFC, color=(:red,0.25), transparent = true);
-lines!(ax_wfc, T, mean_prediction_WFC, color=:red, linewidth=2, linestyle=:dash, label="WFC (model)");
-band!(ax_wfc, T, L2_WFC, U2_WFC, color=(:lightskyblue,0.25), transparent = true);
-lines!(ax_wfc, T, Y_WFC, color=:navyblue, label="WFC (actual)");
+band!(ax_wfc, T, L1_WFC, U1_WFC, color=(:dodgerblue,0.6), transparent = true);
+lines!(ax_wfc, T, mean_prediction_WFC, color=:navy, linewidth=2, linestyle=:dash, label="WFC (expected)");
+band!(ax_wfc, T, L2_WFC, U2_WFC, color=(:skyblue1,0.25), transparent = true);
+lines!(ax_wfc, T, Y_WFC, color=:red, label="WFC (actual)", linewdith=2, linestyle=:solid);
 axislegend(ax_wfc, position=:rt, framevisible = false)
-lines!(ax_wfc, T, Y_WFC, color=:navyblue);
-ylims!(ax_wfc, 1.95, 5.0)
+CairoMakie.ylims!(ax_wfc, 1.95, 5.0)
 
 # save
 save("Test.svg", fig);

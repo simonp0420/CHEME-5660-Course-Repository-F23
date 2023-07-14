@@ -14,6 +14,7 @@ using Statistics
 using LinearAlgebra
 using Plots
 using Colors
+using CairoMakie
 
 # load my packages -
 include(joinpath(_ROOT, "src", "Types.jl"))
