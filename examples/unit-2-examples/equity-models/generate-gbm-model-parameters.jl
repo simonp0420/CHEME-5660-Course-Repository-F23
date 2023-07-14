@@ -46,7 +46,7 @@ for (firm_id, firm_data) ∈ dataset
 
     R = growth_rate_array.*Δt;
     nd = fit_mle(Normal, R);
-    σ̂ = params(nd) |> last |> sqrt;
+    σ̂ = params(nd) |> last |> x-> *(x, √252.0);
 
     # store the data -
     result_tuple = (
@@ -62,4 +62,4 @@ for (firm_id, firm_data) ∈ dataset
 end
 
 
-CSV.write(joinpath(_PATH_TO_DATA, "Parameters-Real-World-GBM.csv"), gbm_model_parameters);
+CSV.write(joinpath(_PATH_TO_DATA, "Parameters-Real-World-GBM-Annualized-Volatility.csv"), gbm_model_parameters);

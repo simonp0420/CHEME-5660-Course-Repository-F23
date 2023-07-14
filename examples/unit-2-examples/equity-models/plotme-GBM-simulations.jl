@@ -118,7 +118,7 @@ lines!(ax, TS, AS, color=:red, label="GS (actual)", linewidth=3);
 axislegend(ax, position=:lt, framevisible = false)
 
 # setup the plot -
-firm_id = 487;
+firm_id = 437;
 zs95 = 1.96;
 zs99 = 2.58;
 expectation = expectation_data[firm_id];
@@ -131,6 +131,27 @@ L95 = expectation[:,2] .- 1.96*sqrt.(variance[:,2])
 U95 = expectation[:,2] .+ 1.96*sqrt.(variance[:,2])
 L99 = expectation[:,2] .- 2.576*sqrt.(variance[:,2])
 U99 = expectation[:,2] .+ 2.576*sqrt.(variance[:,2])
+
+
+# ax = Axis(fig[1,3], xlabel = "Time (years)", ylabel = "Daily volume weighted average price (USD/share)", backgroundcolor=:snow2);
+# TS = sample_data[firm_id][:,1];
+# XS = sample_data[firm_id][:,2:end];
+# AS = firm_data[start_index:stop_index, :volume_weighted_average_price];
+# mean_XS = vec(mean(XS, dims=2));
+# std_XS = vec(std(XS, dims=2));
+# band!(TS, mean_XS + zs99*std_XS, mean_XS - zs99*std_XS, color=(:skyblue1,0.4), transparent = true); 
+# band!(TS, mean_XS + zs95*std_XS, mean_XS - zs95*std_XS, color=(:deepskyblue,0.5), transparent = true); 
+# band!(TS, mean_XS + std_XS, mean_XS - std_XS, color=(:dodgerblue,0.6), transparent = true);
+# lines!(ax, TS, L68, color=:gray25); 
+# lines!(ax, TS, U68, color=:gray25); 
+# lines!(ax, TS, L95, color=:gray25); 
+# lines!(ax, TS, U95, color=:gray25); 
+# lines!(ax, TS, L99, color=:gray25); 
+# lines!(ax, TS, U99, color=:gray25); 
+# lines!(ax, TS, mean_XS, linewidth=3, color=:navy, label="TSLA (expected)");
+# lines!(ax, TS, expectation[:,2], linewidth=3, color=:navy, linestyle=:dash);
+# lines!(ax, TS, AS, color=:red, label="TSLA (actual)", linewidth=3); 
+# axislegend(ax, position=:lt, framevisible = false)
 
 # ax = Axis(fig[1,3], xlabel = "Time (years)", ylabel = "Daily Price", backgroundcolor=:snow2);
 # TS = sample_data[firm_id][:,1];

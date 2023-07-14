@@ -29,7 +29,7 @@ function loadmodelparametersfile(type::Type{MySymmetricRiskNeutralEquityModelPar
 end
 
 function loadmodelparametersfile(type::Type{MyHistoricalVolatilityGBMEquityModelParameters})::DataFrame
-    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Real-World-Historical-GBM.csv")
+    path_to_parameters = joinpath(_PATH_TO_DATA, "Parameters-Real-World-GBM-Annualized-Volatility.csv")
     parameters = CSV.read(path_to_parameters, DataFrame);
     return parameters;
 end
