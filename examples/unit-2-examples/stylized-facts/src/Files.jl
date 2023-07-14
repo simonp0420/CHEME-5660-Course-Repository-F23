@@ -26,4 +26,16 @@ end
 function loadfile(path::String)
     return (load(path)["dd"] |> _clean)
 end
+
+function loaddataset()::Dict{Int64, DataFrame}
+    path_to_dataset = joinpath(_PATH_TO_DATA, "OHLC-Daily-SP500-5-years-TD-1256.jld2");
+    return load(path_to_dataset, "dataset");
+end
+
+function loadfirmmappingfile()::DataFrame
+    path_to_mapping_file = joinpath(_PATH_TO_DATA, "Firm-Mapping-06-22-23.csv")
+    mapping_file = CSV.read(path_to_mapping_file, DataFrame);
+    return mapping_file;
+end
+
 ## PUBLIC METHODS ABOVE HERE =============================================================================================== #
