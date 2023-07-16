@@ -26,3 +26,4 @@ end
 # build methods -
 build(model::Type{MyBinomialEquityPriceTree}, data::NamedTuple)::MyBinomialEquityPriceTree = _build(model, data)
 build(model::Type{MyGeometricBrownianMotionEquityModel}, data::NamedTuple)::MyGeometricBrownianMotionEquityModel = _build(model, data)
+build(model::Type{MyOrdinaryBrownianMotionEquityModel}, data::NamedTuple)::MyOrdinaryBrownianMotionEquityModel = _build(model, data)
