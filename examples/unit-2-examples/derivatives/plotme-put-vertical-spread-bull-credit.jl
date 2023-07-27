@@ -5,11 +5,11 @@ dataset = CSV.read(joinpath(_PATH_TO_DATA, "mu-options-chain-DTE-56.csv"), DataF
 
 # build a vertical spread -
 long_put_contract = build(MyAmericanPutContractModel, (
-    K = 50, premium = 0.23, sense = 1
+    K = 50, premium = 0.23, sense = 1, copy = 1
 ));
 
 short_put_contract = build(MyAmericanPutContractModel, (
-    K = 60, premium = 1.39, sense = -1
+    K = 60, premium = 1.39, sense = -1, copy = 1
 ));
 
 # build the payoff and probability functions -
