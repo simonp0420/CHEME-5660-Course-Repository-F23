@@ -27,12 +27,13 @@ for j ∈ 1:number_of_rates
 
     # iterare of period -
     for i ∈ 1:number_of_periods
-        
+        t = i - 1 # time (number of elapsed periods)
+                
         # compute the discount -
-        D = exp(r*i)
+        D = exp(r*t)
 
         # compute the future values
-        Cₒ[i,1] = i-1       # period is in the first col
+        Cₒ[i,1] = t          # period is in the first col
         Cₒ[i,j+1] = (D)*Cₜ   # future value is for each r in the col 2,... 
     end
 end
